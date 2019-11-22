@@ -77,5 +77,5 @@ sudo nano /etc/apache2/sites-available/viajes.conf
     SSLCertificateFile /etc/ssl/certs/certificado.crt
     SSLCertificateKeyFile /etc/ssl/private/certificado.key
 </VirtualHost>
-Reiciamos apache: sudo systemctl reload apache2
+Reiciamos apache: sudo systemctl reload apache2.
 
