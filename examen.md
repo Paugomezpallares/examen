@@ -34,4 +34,6 @@ Modificamos la quee para que solo podamos entrar con nuestra ip en local:sudo na
 ![7](https://user-images.githubusercontent.com/55285319/69439378-1b4b9a00-0d47-11ea-891e-6ac31dad053c.png)
 Es muy importante ejecutar: sudo systemctl reload apache2 cada vez que configuremos algo.
 -Entramos dentro de sudo nano /etc/apache2/sites-available/viajes.conf
+-Ponemos sudo nano /etc/apache2/sites-available/viajes.conf.
+![8](https://user-images.githubusercontent.com/55285319/69440593-69619d00-0d49-11ea-91cf-7e6838c588bf.png)
 
