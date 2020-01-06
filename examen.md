@@ -72,7 +72,7 @@ Añadimos el VirtualHost 443 el archivo de configuración de la página a la que
 sudo nano /etc/apache2/sites-available/viajes.conf
 <VirtualHost *:443>
     DocumentRoot /var/www/viajes
-    ServerName viajes.com
+    ServerName 192.168.1.61
     SSLEngine On
     SSLCertificateFile /etc/ssl/certs/certificado.crt
     SSLCertificateKeyFile /etc/ssl/private/certificado.key
