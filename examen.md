@@ -33,11 +33,11 @@ Modificamos la quee para que solo podamos entrar con nuestra ip en local:sudo na
       Require ip 192.168.1.108
      </RequireAll>
   </Directory>
-![7](https://user-images.githubusercontent.com/55285319/69439378-1b4b9a00-0d47-11ea-891e-6ac31dad053c.png)
+![5](https://user-images.githubusercontent.com/55285319/71852232-8d4e2780-30d8-11ea-9124-9bb4e416b4c8.png)
 Es muy importante ejecutar: sudo systemctl reload apache2 cada vez que configuremos algo.
 -Entramos dentro de sudo nano /etc/apache2/sites-available/viajes.conf
 -Ponemos sudo nano /etc/apache2/sites-available/viajes.conf.
-![8](https://user-images.githubusercontent.com/55285319/69440593-69619d00-0d49-11ea-91cf-7e6838c588bf.png)
+![6](https://user-images.githubusercontent.com/55285319/71852234-90491800-30d8-11ea-87f0-36210e170c9b.png)
 ![9](https://user-images.githubusercontent.com/55285319/69441038-31a72500-0d4a-11ea-8992-0ef3190fb4e4.png)
 
 -Hacemos cd /var/www/viajes,sudo mkdir settings, cd settings, sudo mkdir conf.txt
