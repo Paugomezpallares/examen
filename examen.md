@@ -9,7 +9,7 @@ Pasamos los datos de recurso_examen con filezilla al servidor y entramos en sudo
     ServerName viajes.com
 </VirtualHost>
 
-![2](https://user-images.githubusercontent.com/55285319/69437245-34524c00-0d43-11ea-9d70-21f156fdeadd.png)
+![1](https://user-images.githubusercontent.com/55285319/71850440-950bcd00-30d4-11ea-8bbc-8758f8aa251e.png)
 Entramos en sudo nano /etc/apache2/sites-available/ropa.conf: 
 <VirtualHost *:80>                            
     DocumentRoot /var/www/ropa
