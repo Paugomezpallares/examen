@@ -15,7 +15,7 @@ Entramos en sudo nano /etc/apache2/sites-available/ropa.conf:
     DocumentRoot /var/www/ropa
     ServerName ropa.com
 </VirtualHost>
-![3](https://user-images.githubusercontent.com/55285319/69437285-4a600c80-0d43-11ea-9c2b-e91adbe9a60d.png)
+![2](https://user-images.githubusercontent.com/55285319/71850567-dd2aef80-30d4-11ea-9b0f-52ea53350660.png)
 
 -Creamos sudo mkdir /etc/apache2/password,una carpeta donde crear los usuarios y sus passwords en un archivo.
 -sudo htpasswd -c /etc/apache2/password/passwords-admin admin, esto sirve para crear una contraseña.
