@@ -24,7 +24,7 @@ Entramos en sudo nano /etc/apache2/sites-available/ropa.conf:
 Para entrar y modificar ropa:sudo nano /etc/apache2/sites-available/ropa.conf
 ![6](https://user-images.githubusercontent.com/55285319/69438909-336ee980-0d46-11ea-94a1-9d6584490fcb.png) ponemos al final admin, no user.
 -Entramos a ropa y nos pregunta user y password: 
-![4](https://user-images.githubusercontent.com/55285319/69438796-015d8780-0d46-11ea-951c-eec48701bde8.png)
+![3](https://user-images.githubusercontent.com/55285319/71851519-0ba9ca00-30d7-11ea-8082-6da3f674abb1.png)
 
 
 Modificamos la quee para que solo podamos entrar con nuestra ip en local:sudo nano /etc/apache2/sites-available/viajes.conf y ponemos 
