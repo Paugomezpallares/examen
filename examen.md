@@ -2,18 +2,18 @@
 Lo primero es poner dos adaptadores de red en modo puente(bridge) y entrar con el comando: sudo nano /etc/netplan/50-cloud-init.yaml  
 ![1](https://user-images.githubusercontent.com/55285319/69435473-e720ab00-0d3f-11ea-8206-c82d0fe8d74c.png)
 
-Después entramos en local en sudo nano /etc/hosts y ponemos 192.168.1.61 viajes.com y 192.168.1.62 ropa.com
+Después entramos en local en sudo nano /etc/hosts y ponemos 192.168.1.61 y 192.168.1.62
 Pasamos los datos de recurso_examen con filezilla al servidor y entramos en sudo nano /etc/apache2/sites-available/viajes.conf: 
 <VirtualHost *:80>                            
     DocumentRoot /var/www/viajes
-    ServerName viajes.com
+    ServerName 192.168.1.61
 </VirtualHost>
 
 ![1](https://user-images.githubusercontent.com/55285319/71850440-950bcd00-30d4-11ea-8bbc-8758f8aa251e.png)
 Entramos en sudo nano /etc/apache2/sites-available/ropa.conf: 
 <VirtualHost *:80>                            
     DocumentRoot /var/www/ropa
-    ServerName ropa.com
+    ServerName 192.168.1.61
 </VirtualHost>
 ![2](https://user-images.githubusercontent.com/55285319/71850567-dd2aef80-30d4-11ea-9b0f-52ea53350660.png)
 
